@@ -1,0 +1,21 @@
+namespace test_component_base
+{
+    unsealed runtimeclass HierarchyA
+    {
+        HierarchyA();
+        HierarchyA(String name);
+
+        String HierarchyA_Method();
+
+        Windows.Foundation.Collections.IVector<Object> GetList();
+        Windows.Foundation.Collections.IObservableVector<Object> GetXamlList();
+    }
+
+    unsealed runtimeclass HierarchyB : HierarchyA
+    {
+        HierarchyB();
+        HierarchyB(String name);
+
+        String HierarchyB_Method();
+    }
+}
