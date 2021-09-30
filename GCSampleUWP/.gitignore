@@ -1,0 +1,7 @@
+.vs
+*x64
+packages
+*bin
+*obj
+*Debug
+*Release

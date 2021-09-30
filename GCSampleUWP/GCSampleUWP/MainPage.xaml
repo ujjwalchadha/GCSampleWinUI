@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="GCSampleUWP.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GCSampleUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:Name="myButton" Click="myButton_Click">Enumerate IVector</Button>
+        <Button x:Name="myButton2" Click="myButton2_Click" HorizontalAlignment="Right">Enumerate IObservableVector</Button>
+        <TextBlock IsColorFontEnabled="True" x:Name="myTextBlock" Text="Size of enumerated list appears here" HorizontalAlignment="Center" />
+    </Grid>
+</Page>
